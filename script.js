@@ -53,11 +53,7 @@ console.log(mondai[0])
 
 const questionSentence = document.get
 
-function mondai(){
-  if(Math.random()*5 >=1)[
 
-  ]
-}
 
 
 
