@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    
+    
+}
+#syashin {
+    
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+}
+
+.text {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    font-size:80px;
+}
+#pass1 {
+    width: 180px;
+    height: 97%;
+    text-align: center;
+    font-size: 100%;
+}
+#pass2 {
+    width: 180px;
+    height: 97%;
+    text-align: center;
+    font-size: 100%;
+}
+#pass3 {
+    width: 180px;
+    height: 97%;
+    text-align: center;
+    font-size: 100%;
+}
+#button {
+    width: 100px;
+    height: 50px;
+}
