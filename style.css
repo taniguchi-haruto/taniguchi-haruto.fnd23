@@ -89,22 +89,46 @@ ul {
     background: transparent;
 }
 
-.mondai {
-    width: 2000px;
-    height: 1500px;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, .5);
-    color: #fff;
-}
-
-#mondaibotan {
-    font-size: 100px;
-    width: auto;
-    height: auto;
-    background: rgb(241, 243, 245);
-    border:#5655b3;
-}
 
 #neko {
     text-align: right;
+}
+
+#geme {
+    width: 200px;
+    height: 100px;
+    font-size: larger;
+
+
+}
+
+.gemeOya {
+    width: 3000px;
+    height: 1300px;
+    text-align: center;
+    margin: auto;
+    display:inline-table;
+}
+
+#re-su {
+    background-size: 1500px;
+    background-image: url("c:/Users/1598092/Pictures/re-sukaizyou.jpg");
+}
+
+#re-su1 {
+    font-size: 60px;
+
+
+}
+
+#re-su2 {
+    font-size: 60px;
+}
+
+#re-su3 {
+    font-size: 60px;
+}
+
+#re-su4 {
+    font-size: 60px;
 }
