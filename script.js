@@ -34,29 +34,54 @@ const lastButton = document.getElementById("lastButton");
 lastButton.addEventListener("click", passIvent);
 function passIvent() {
   if (counter1 === 3 && counter2 === 9) {
-      const width = 900;
-      const height =500;
-      const disPage ="pass.html";
-      const sudName = "passWord";
-      const sudx = (screen.availWidth - width )/2;
-      const sudy = (screen.availHeight - height );
-      const sudWin = "width=" + width + ",height=" + height + ",top=" + sudy + ",left=" + sudx;
-      window.open(disPage, sudName, sudWin);
+    const width = 900;
+    const height = 500;
+    const disPage = "pass.html";
+    const sudName = "passWord";
+    const sudx = (screen.availWidth - width) / 2;
+    const sudy = (screen.availHeight - height);
+    const sudWin = "width=" + width + ",height=" + height + ",top=" + sudy + ",left=" + sudx;
+    window.open(disPage, sudName, sudWin);
+    counter1 = 0;
+    counter2 = 0;
+  }
+}
+const getGeme = document.getElementById("geme")
+function geme() {
+  const result = [];
+  const iti = Math.random() * 4 + 1;
+  const ni = Math.random() * 4 + 1;
+  const san = Math.random() * 4 + 1;
+  const yon = Math.random() * 4 + 1;
+  const resu1 = document.getElementById("re-su1");
+  const resu2 = document.getElementById("re-su2");
+  const resu3 = document.getElementById("re-su3");
+  const resu4 = document.getElementById("re-su4");
+  const resu = [resu1, resu2, resu3, resu4];
+  const motoArr = [iti, ni, san, yon];
+  const arr = [iti, ni, san, yon];
+  const newArr = arr.sort(function (num1, num2) {
+    console.log(num1)
+    console.log(num2)
+    return Number(num2) - Number(num1)
+  });
+  console.log(newArr)
+  for (const num of newArr) {
+    for (let i = 0; i < arr.length; i++) {
+      if (num === motoArr[i]) {
+        console.log(motoArr.indexOf(num))
+        resu[i].innerHTML = (newArr.indexOf(num) + 1) + "位";
+        result.push(motoArr.indexOf(num));
+        console.log(result)
+      }
     }
   }
-const mondaibotan = document.getElementById("mondaibotan")
 
-const mondai =[mondai1, 0]
-
-console.log(mondai[0])
+  return result
+}
 
 
-const questionSentence = document.get
-
-
-
-
-
+getGeme.addEventListener("click", geme)
 
 
 
