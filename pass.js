@@ -1,5 +1,5 @@
 'use strict'
-const url = "C:/Users/1598092/Desktop/DIG/DIG使用した画像/FND-23期.png"
+const url = "https://github.com/taniguchi-haruto/taniguchi-haruto.fnd23/blob/main/FND-23%E6%9C%9F.png?raw=true"
 function passConfirmation() {
     const pass1 = document.getElementById("pass1").value;
     const pass2 = document.getElementById("pass2").value;
