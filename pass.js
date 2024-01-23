@@ -13,8 +13,8 @@ function passConfirmation() {
         text[0].style.display = "none"
         text[1].style.display = "none"
         text[2].style.display = "none"
-        body[0].style.width = "900px";
-        body[0].style.height = "400px"
+        body[0].style.width = "auto";
+        body[0].style.height = "900px"
         div[0].style.backgroundImage = "url(" + url + ")";
         div[0].style.width = "100%";
         div[0].style.height = "100%"
@@ -26,5 +26,6 @@ function passConfirmation() {
 
     }
 }
+
 
 
