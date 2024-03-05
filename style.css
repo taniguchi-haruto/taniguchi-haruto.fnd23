@@ -27,7 +27,7 @@ h1 {
 }
 
 body {
-    background: url("./haikei.gif");
+    background: url("./main/haikei.gif");
     background-size: calc(100%);
     background-attachment: fixed;
     text-align: center;
