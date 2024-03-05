@@ -27,7 +27,7 @@ h1 {
 }
 
 body {
-    background: url("./背景.gif");
+    background: url("./main/背景.gif");
     background-size: calc(100%);
     background-attachment: fixed;
     text-align: center;
