@@ -1,40 +1,48 @@
 h1 {
     color: aqua;
-}
-
-.outer {
-    text-align: center;
-}
-
-.shadowbox {
     height: 100%;
     background-color: aliceblue;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     text-shadow: 0px 0px 10px black;
 }
 
+
+/* .outer {
+    text-align: center;
+} */
+
+/* .shadowbox {
+    /* height: 100%;
+    background-color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0px 0px 10px black; 
+} */
+
 .oya {
     width: auto;
-    display:inline-block;
+    display: inline-block;
     vertical-align: bottom;
     margin-bottom: 10px;
     padding: 10px;
-    
+
 }
+
 .oya2 {
     display: inline-block;
     text-align: left;
     width: 600px;
     height: 1000px;
-    margin: 10px ;
+    margin: 10px;
 }
 
 body {
-    background-image: url("https://github.com/taniguchi-haruto/taniguchi-haruto.fnd23/blob/main/%E8%83%8C%E6%99%AF.gif?raw=true");
+    background: url("C:/Users/1598092/Desktop/DIG/DIG使用した画像/背景.gif");
     background-size: calc(100%);
+    background-attachment: fixed;
     text-align: center;
-    
+
 }
 
 #p {
@@ -66,14 +74,17 @@ ul {
     background-color: cornsilk;
     margin: auto;
 }
+
 #haikei2 {
     background-color: rgb(52, 251, 2);
     margin: auto;
 }
+
 #haikei3 {
     background-color: rgb(204, 233, 43);
     margin: auto;
 }
+
 #haikei4 {
     background-color: rgb(255, 255, 255);
     margin: auto;
@@ -121,6 +132,11 @@ ul {
 
 }
 
+#kakekko {
+    font-size: 50px;
+    color: cyan;
+}
+
 .gemeOya {
     width: 3000px;
     height: 1300px;
@@ -131,9 +147,9 @@ ul {
 
 #re-su {
     background-size: 1500px;
-    background-image: url("https://github.com/taniguchi-haruto/taniguchi-haruto.fnd23/blob/main/re-sukaizyou.jpg?raw=true" );
-    width:"3000px" ;
-    height:"1317px";
+    background-image: url("c:/Users/1598092/Pictures/re-sukaizyou.jpg");
+    width: "3000px";
+    height: "1317px";
 }
 
 #re-su1 {
@@ -152,4 +168,22 @@ ul {
 
 #re-su4 {
     font-size: 60px;
+}
+
+.typing {
+    height: 900px;
+    width: auto;
+    display: inline-flex;
+    transition-duration: 0.5s;
+}
+.imgTyping {
+    transition-duration: 0.5s;
+}
+.imgTyping:hover {
+    overflow: hidden;
+    text-align: center;
+    z-index: 99;
+    transform: translate(-50%,-50%);
+    transform:scaleX(20);
+    cursor:pointer;
 }
