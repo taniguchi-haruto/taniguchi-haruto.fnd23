@@ -27,7 +27,7 @@ h1 {
 }
 
 body {
-    background: url("C:/Users/1598092/Desktop/DIG/DIG使用した画像/背景.gif");
+    background: url("./背景.gif");
     background-size: calc(100%);
     background-attachment: fixed;
     text-align: center;
@@ -136,7 +136,7 @@ ul {
 
 #re-su {
     background-size: 1500px;
-    background-image: url("c:/Users/1598092/Pictures/re-sukaizyou.jpg");
+    background-image: url("./re-sukaizyou.jpg");
     width: "3000px";
     height: "1317px";
 }
